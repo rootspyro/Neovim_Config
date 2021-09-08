@@ -29,6 +29,8 @@ Once installed, open Neovim and type the command PlugIntsall.
 
 This configuration uses [Coc](https://github.com/neoclide/coc.nvim) for code autocompletion
 
+***NOTE:** Coc requires [nodejs](https://nodejs.org/es/download/)*
+
 Coc uses language-servers that can be installed by typing the command: 
 **CocInstall** 
 
@@ -59,7 +61,7 @@ Move this file to the fonts path:
 mv Hack\ Regular\ Nerd\ Font\ Complete.ttf ~/.local/share/fonts/
 ``` 
 
-And that's it. Your Neovim setup is ready.
+And that's it. Your Neovim setup is ready. :tada:
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
