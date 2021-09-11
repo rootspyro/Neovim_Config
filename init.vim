@@ -17,6 +17,7 @@ set termguicolors
 
 let g:mapleader = ' '
 
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js'
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
