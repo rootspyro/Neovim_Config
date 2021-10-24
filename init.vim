@@ -27,6 +27,10 @@ colorscheme onedark
 "COC 
 source $HOME/.config/nvim/plugins/coc.vim
 
+"JEDI
+source $HOME/.config/nvim/plugins/jedi.vim
+"ATTENTION jedi-vim requires pynvim (pip3 install pynvim)
+
 nmap <Leader>n :NERDTree <cr>
 
 

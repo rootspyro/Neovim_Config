@@ -20,6 +20,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons' 
     "devicons requiere de una nerdfont
 
+    Plug 'davidhalter/jedi-vim'
+
 
     " < -- THEMES -- >
 
