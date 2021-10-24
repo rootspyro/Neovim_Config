@@ -50,6 +50,14 @@ Here are a list of [language-servers](https://github.com/neoclide/coc.nvim/wiki/
 :CocInstall coc-tsserver
 ```
 
+## Jedi-Vim
+
+[Jedi-Vim](https://github.com/davidhalter/jedi-vim) Plugin is installed for python development. It requires install [pynvim](https://github.com/neovim/pynvim).
+
+```bash
+pip3 install pynvim
+```
+
 ## Devicons
 
 Finally to add icons to Neovim  you need to install [devicons](https://github.com/ryanoasis/vim-devicons) and a [Nerd Font](https://github.com/ryanoasis/nerd-fonts).
