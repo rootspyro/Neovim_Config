@@ -26,9 +26,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " < -- THEMES -- >
 
     Plug 'joshdick/onedark.vim'
-    Plug 'jacoborus/tender.vim'
-    Plug 'copocon/iceberg.vim'
-    Plug 'sainnhe/sonokai'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
 
