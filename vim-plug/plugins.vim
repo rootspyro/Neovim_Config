@@ -23,6 +23,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'davidhalter/jedi-vim'
 
 
+    "MARKDOWN
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+    
     " < -- THEMES -- >
 
     Plug 'joshdick/onedark.vim'
@@ -30,3 +33,4 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+

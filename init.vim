@@ -30,6 +30,13 @@ source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/jedi.vim
 "ATTENTION jedi-vim requires pynvim (pip3 install pynvim)
 
+"MARKDOWN
+source $HOME/.config/nvim/plugins/markdown.vim
+
+
 nmap <Leader>n :NERDTree <cr>
 
+nmap <C-s> <Plug>MarkdownPreview
+nmap <M-s> <Plug>MarkdownPreviewStop
+nmap <C-p> <Plug>MarkdownPreviewToggle
 
