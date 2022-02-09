@@ -21,7 +21,7 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js, *.tsx'
 
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
-colorscheme onedark
+colorscheme nord 
 
 "COC 
 source $HOME/.config/nvim/plugins/coc.vim
