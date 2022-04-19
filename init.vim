@@ -33,6 +33,8 @@ source $HOME/.config/nvim/plugins/jedi.vim
 "MARKDOWN
 source $HOME/.config/nvim/plugins/markdown.vim
 
+"AIRLINE POWERLINE
+let g:airline_powerline_fonts = 1
 
 nmap <Leader>n :NERDTree <cr>
 
