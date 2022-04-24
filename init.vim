@@ -37,6 +37,7 @@ source $HOME/.config/nvim/plugins/markdown.vim
 let g:airline_powerline_fonts = 1
 
 nmap <Leader>n :NERDTree <cr>
+let NERDTreeShowHidden=1
 
 nmap <C-s> <Plug>MarkdownPreview
 nmap <M-s> <Plug>MarkdownPreviewStop
